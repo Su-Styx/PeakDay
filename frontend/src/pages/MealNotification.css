@@ -1,0 +1,70 @@
+.col {
+    position: relative;
+    background: #ffffff24;
+    box-shadow: 2px 0px 10px #000000;
+    border: 3px solid #A79B9B2F;
+    border-radius: 50px;
+    opacity: 1;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    z-index: 999;
+    color:#000000;
+ /* Set the width to 25% */
+}
+
+.heading {
+    position: absolute;
+    top: 223px;
+    left: 109px;
+    width: 265px;
+    height: 75px;
+    background: #ffffff;
+    box-shadow: 2px 0px 10px #000000;
+    border: 3px solid #A79B9B2F;
+    border-radius: 50px;
+    opacity: .35;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    z-index: 999;
+    color: #937e7e;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headingtext{
+        text-align: center;
+        line-height: 70px;
+        font-size: x-large;
+        color:#ffffff
+}
+
+.notificationsbox {
+    position: absolute;
+    top: 9px;
+    right: 10px; /* Adjust as needed */
+    width: 445px;
+    height: 204px;
+    background: #FFFFFF;
+    box-shadow: 2px 0px 10px #000000;
+    border: 3px solid #A79B9B2F;
+    border-radius: 50px;
+    opacity: .35;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+}
+.notificationsboxtext {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    text-align: center;
+    width: 100%; /* Ensure the text spans the entire width */
+    height: 95%; /* Ensure the text spans the entire height */
+    font-size: x-large;
+    color: #000000;
+}
+
+.meal-row {
+    margin-bottom: 20px; /* Adjusts the margin-bottom as and when needed */
+}

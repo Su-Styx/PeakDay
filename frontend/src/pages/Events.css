@@ -1,0 +1,12 @@
+/* Events.css */
+.event-container {
+    background-color: rgba(0, 0, 0, 0.2); /* Set opacity to 0.2 */
+    border-radius: 10px; /* Make the container round */
+    padding: 20px; /* Add padding of 20px */
+    margin-bottom: 10px; /* Add margin bottom to separate each event */
+  }
+  
+  .event-container li {
+    list-style: none; /* Remove default list styles */
+  }
+  

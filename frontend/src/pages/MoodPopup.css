@@ -1,0 +1,43 @@
+.mood-popup {
+    position: fixed;
+    top: 10px; /* Positioned near the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    width: 25%; /* Maintain a width similar to .col */
+    min-width: 300px; /* Minimum width for smaller screens */
+    background: #c1c6f3e6; /* More opaque white background */
+    box-shadow: 2px 0px 10px #000000; /* Shadow similar to .col */
+    border: 3px solid #A79B9B2F; /* Similar styled border */
+    border-radius: 50px; /* Rounded borders */
+    opacity: 0.95; /* Increase opacity for more solid appearance */
+    z-index: 1000; /* High z-index for overlay */
+    color: #000000; /* Text color */
+    padding: 20px; /* Padding around content */
+    box-sizing: border-box; /* Includes padding and border in width and height */
+    display: flex; /* Flexbox for internal centering */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+}
+
+.mood-popup h3 {
+    margin-bottom: 20px; /* Space below the header */
+    color: inherit; /* Inherits color from parent, set to #000000 */
+}
+
+.mood-popup button {
+    padding: 10px 20px; /* Padding inside the button */
+    margin-top: 10px; /* Margin above each button */
+    background-color: #7db4c676; /* Semi-transparent styled button background */
+    color: #ffffff; /* White text */
+    border-radius: 20px; /* Rounded button borders */
+    border: 1px solid #878694; /* Slight border for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: larger; /* Larger font size for readability */
+    outline: none; /* Remove focus outline */
+}
+
+.mood-popup button:hover {
+    background-color: #7db4c6; /* Darker background on hover */
+}

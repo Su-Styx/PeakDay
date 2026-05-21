@@ -1,0 +1,45 @@
+.mental-health-container {
+    position: relative;
+    background: #ffffff24;
+    box-shadow: 2px 0px 10px #000000;
+    border: 3px solid #A79B9B2F;
+    border-radius: 50px;
+    opacity: 1;
+    margin-bottom: 20px;
+    z-index: 999;
+    color: #000000;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  h2 {
+    color: #388e3c;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .resources, .support {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #1e88e5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

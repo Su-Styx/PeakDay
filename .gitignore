@@ -1,0 +1,50 @@
+# Ignore node_modules folders
+node_modules/
+PeakDayApp/node_modules/
+
+# Ignore caches
+**/.cache/
+
+# Ignore tarballs or large archives
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore build or dist directories if you have them
+build/
+dist/
+
+# Ignore any other large files you don't want in git
+# Python / Django
+venv/
+newenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+db.sqlite3
+db.sqbpro
+
+# Node / React (frontend)
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+
+# Archives & tarballs
+*.tar.gz
+*.tar
+combined\ copy.tar
+
+# Docker
+*.dockerignore
+
+# Misc
+selected_recipes.json
+.DS_Store
+*.log
