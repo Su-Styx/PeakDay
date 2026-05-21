@@ -1,6 +1,7 @@
 # PeakDay 🏔️
 
 A full-stack web application built with Django and React, served via Nginx and containerised with Docker.
+Proposed to Beyond Consulting aiming to improve user productivity through a wellness- focused timetabling application serving real- time notifications and a suite of features that promote a healthy work- life balance. 
 
 ## Tech Stack
 
